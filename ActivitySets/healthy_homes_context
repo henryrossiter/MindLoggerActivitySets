@@ -2,7 +2,7 @@
     "@context": {
         "@version": 1.1,
         "activity_path": "https://raw.githubusercontent.com/henryrossiter/MindLoggerActivitySets/master/Activities/",
-        "ema_morning": {
+        "healthy_homes_parent_survey": {
             "@id": "activity_path:healthy_homes_parent_survey_schema",
             "@type": "@id"
         }
