@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "nights",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "In the past month, how often has your child woken up at night with asthma symptoms?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "2 times or fewer (0-2) each week "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "3-4 times a month "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "5 or more times each month "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "Frequent"
+                }
+            }
+        ],
+        "minValue": "",
+        "maxValue": "",
+        "requiredValue": ""
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "inhaler",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "During the past 4 weeks, how often has your child used the rescue inhaler or nebulizer medication (such as albuterol)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "Not at all "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "Once a week or less "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "2 to 3 times each week "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "1 to 2 times each day "
+                }
+            },
+            {
+                "schema:value": 5,
+                "schema:name": {
+                    "en": "3 or more times each day"
+                }
+            }
+        ],
+        "minValue": "",
+        "maxValue": "",
+        "requiredValue": ""
+    }
+}

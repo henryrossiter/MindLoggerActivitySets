@@ -1,0 +1,18 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "no_asthma",
+    "ui": {
+        "inputType": "yesno"
+    },
+    "question": {
+        "en": "If NO, please answer the subsequent questions for ONLY ONE OF THE CHILDREN in your home between 6 and 13 years old and who does not have asthma."
+    },
+    "responseOptions": {
+        "minValue": "",
+        "maxValue": "",
+        "requiredValue": ""
+    }
+}

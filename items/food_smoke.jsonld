@@ -1,0 +1,38 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "food_smoke",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Foods that begin to smoke"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "Never "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "Sometimes "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "Often"
+                }
+            }
+        ],
+        "minValue": "",
+        "maxValue": "",
+        "requiredValue": ""
+    }
+}

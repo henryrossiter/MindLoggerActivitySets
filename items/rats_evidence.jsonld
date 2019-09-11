@@ -1,0 +1,56 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "rats_evidence",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Have you seen evidence of rats (like droppings or poop) in your home during the past month? "
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "Never "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "Less than once a week "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "1-3 times a week "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "4-6 times a week "
+                }
+            },
+            {
+                "schema:value": 5,
+                "schema:name": {
+                    "en": "Once a day "
+                }
+            },
+            {
+                "schema:value": 6,
+                "schema:name": {
+                    "en": "More than once a day"
+                }
+            }
+        ],
+        "minValue": "",
+        "maxValue": "",
+        "requiredValue": ""
+    }
+}

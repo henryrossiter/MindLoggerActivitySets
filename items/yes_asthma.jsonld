@@ -1,0 +1,18 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "yes_asthma",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "If YES, please answer the subsequent questions for ONLY ONE OF YOUR CHILDREN with asthma."
+    },
+    "responseOptions": {
+        "minValue": "",
+        "maxValue": "",
+        "requiredValue": ""
+    }
+}

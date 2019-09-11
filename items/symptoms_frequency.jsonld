@@ -1,0 +1,50 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "symptoms_frequency",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "During the past 4 weeks, how often did asthma symptoms (wheezing, coughing, shortness of breath, chest tightness or pain) wake your child up at night or earlier than usual in the morning?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "Not at all "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "Once or twice a month "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "Once a week "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "2 to 3 times a week "
+                }
+            },
+            {
+                "schema:value": 5,
+                "schema:name": {
+                    "en": "4 or more times a week"
+                }
+            }
+        ],
+        "minValue": "",
+        "maxValue": "",
+        "requiredValue": ""
+    }
+}

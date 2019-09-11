@@ -1,0 +1,56 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "problems",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Are you having problems with any of the following? "
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "Fresh air/ ventilation "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "Rodents (mice"
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "Moldy smell in home "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "Broken (not working) heating or air conditioning system "
+                }
+            },
+            {
+                "schema:value": 5,
+                "schema:name": {
+                    "en": "Carpet "
+                }
+            },
+            {
+                "schema:value": 6,
+                "schema:name": {
+                    "en": "I do not have problems with any of these things"
+                }
+            }
+        ],
+        "minValue": "",
+        "maxValue": "",
+        "requiredValue": ""
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "limits",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "In the past month, have asthma symptoms limited your child's activities? "
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "No limits "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "3-4 times symptoms a month when exercising and doing sports "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "No hard exercise"
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "No activities"
+                }
+            }
+        ],
+        "minValue": "",
+        "maxValue": "",
+        "requiredValue": ""
+    }
+}

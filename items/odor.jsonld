@@ -1,0 +1,38 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "odor",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Foods that have strong odors"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "Never "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "Sometimes "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "Often"
+                }
+            }
+        ],
+        "minValue": "",
+        "maxValue": "",
+        "requiredValue": ""
+    }
+}

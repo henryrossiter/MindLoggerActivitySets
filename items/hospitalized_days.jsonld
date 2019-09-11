@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "hospitalized_days",
+    "ui": {
+        "inputType": "select"
+    },
+    "question": {
+        "en": "How many days did your child stay in the hospital at the most recent hospitalization?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "1-2 days "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "3-4 days "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "5-7 days "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "more than 7 days"
+                }
+            }
+        ],
+        "minValue": "",
+        "maxValue": "",
+        "requiredValue": ""
+    }
+}

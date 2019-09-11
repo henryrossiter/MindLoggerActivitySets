@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "stains_time",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "How long have those stains been there?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "0-1 month "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "1-6 months "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "6-12 months "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "More than a year"
+                }
+            }
+        ],
+        "minValue": "",
+        "maxValue": "",
+        "requiredValue": ""
+    }
+}

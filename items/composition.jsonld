@@ -1,0 +1,50 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "composition",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Pay attention to composition of furniture and clothing   (For example, read labels on clothing, and look for items your child may be allergic to, such as cotton, wool, kapok)."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "Never "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "Seldom "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "Sometimes "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "Often "
+                }
+            },
+            {
+                "schema:value": 5,
+                "schema:name": {
+                    "en": "Always"
+                }
+            }
+        ],
+        "minValue": "",
+        "maxValue": "",
+        "requiredValue": ""
+    }
+}

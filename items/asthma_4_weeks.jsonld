@@ -1,0 +1,50 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "asthma_4_weeks",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "In the past 4 weeks, how much of the time did asthma keep your child from getting as much done at school or at home?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "None of the time "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "A little of the time "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "Some of the time "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "Most of the time "
+                }
+            },
+            {
+                "schema:value": 5,
+                "schema:name": {
+                    "en": "All of the time"
+                }
+            }
+        ],
+        "minValue": "",
+        "maxValue": "",
+        "requiredValue": ""
+    }
+}

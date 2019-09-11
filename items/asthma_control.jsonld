@@ -1,0 +1,50 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "asthma_control",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "How would you rate your child's asthma control during the past 4 weeks?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "Completely controlled "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "Well controlled "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "Somewhat controlled "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "Poorly controlled "
+                }
+            },
+            {
+                "schema:value": 5,
+                "schema:name": {
+                    "en": "Not controlled at all"
+                }
+            }
+        ],
+        "minValue": "",
+        "maxValue": "",
+        "requiredValue": ""
+    }
+}

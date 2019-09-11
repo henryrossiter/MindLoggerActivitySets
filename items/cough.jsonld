@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "cough",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "In the past month, how many times each week has your child had a COUGH? "
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "2 times or fewer (0-2) each week "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "More than two times/week "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "Every day "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "All the time"
+                }
+            }
+        ],
+        "minValue": "",
+        "maxValue": "",
+        "requiredValue": ""
+    }
+}

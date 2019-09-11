@@ -1,0 +1,56 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "hospitalized_total",
+    "ui": {
+        "inputType": "select"
+    },
+    "question": {
+        "en": "How many days total (for all hospitalizations) has your child stayed in the hospital?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "1-2 days "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "3-4 days "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "5-7 days "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "8-10 days "
+                }
+            },
+            {
+                "schema:value": 5,
+                "schema:name": {
+                    "en": "11-13 days "
+                }
+            },
+            {
+                "schema:value": 6,
+                "schema:name": {
+                    "en": "more than 14 days"
+                }
+            }
+        ],
+        "minValue": "",
+        "maxValue": "",
+        "requiredValue": ""
+    }
+}

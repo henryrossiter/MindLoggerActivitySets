@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "vinyl",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Vinyl"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "Living room "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "Bedroom "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "Bathroom "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "Kitchen"
+                }
+            }
+        ],
+        "minValue": "",
+        "maxValue": "",
+        "requiredValue": ""
+    }
+}

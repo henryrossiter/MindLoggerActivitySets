@@ -1,0 +1,56 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "carpet_vacuumed",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "How often is the carpet vacuumed? "
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "No carpet "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "Once a week "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "Once every two weeks "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "Once a month "
+                }
+            },
+            {
+                "schema:value": 5,
+                "schema:name": {
+                    "en": "4-6 times a year "
+                }
+            },
+            {
+                "schema:value": 6,
+                "schema:name": {
+                    "en": "Never vacuumed"
+                }
+            }
+        ],
+        "minValue": "",
+        "maxValue": "",
+        "requiredValue": ""
+    }
+}

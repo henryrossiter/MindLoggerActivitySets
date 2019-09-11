@@ -1,0 +1,56 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "parents",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Parents are..."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "married "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "separated "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "divorced "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "remarried "
+                }
+            },
+            {
+                "schema:value": 5,
+                "schema:name": {
+                    "en": "widowed "
+                }
+            },
+            {
+                "schema:value": 6,
+                "schema:name": {
+                    "en": "single"
+                }
+            }
+        ],
+        "minValue": "",
+        "maxValue": "",
+        "requiredValue": ""
+    }
+}

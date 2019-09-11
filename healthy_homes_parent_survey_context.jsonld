@@ -1,0 +1,450 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "healthy_homes_parent_survey": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/activities/healthy_homes_parent_survey/items/",
+        "record_id": {
+            "@id": "healthy_homes_parent_survey:record_id.jsonld",
+            "@type": "@id"
+        },
+        "site_id": {
+            "@id": "healthy_homes_parent_survey:site_id.jsonld",
+            "@type": "@id"
+        },
+        "living_type": {
+            "@id": "healthy_homes_parent_survey:living_type.jsonld",
+            "@type": "@id"
+        },
+        "central_air_conditioning": {
+            "@id": "healthy_homes_parent_survey:central_air_conditioning.jsonld",
+            "@type": "@id"
+        },
+        "cell_phone": {
+            "@id": "healthy_homes_parent_survey:cell_phone.jsonld",
+            "@type": "@id"
+        },
+        "phone_type": {
+            "@id": "healthy_homes_parent_survey:phone_type.jsonld",
+            "@type": "@id"
+        },
+        "asthma": {
+            "@id": "healthy_homes_parent_survey:asthma.jsonld",
+            "@type": "@id"
+        },
+        "yes_asthma": {
+            "@id": "healthy_homes_parent_survey:yes_asthma.jsonld",
+            "@type": "@id"
+        },
+        "months": {
+            "@id": "healthy_homes_parent_survey:months.jsonld",
+            "@type": "@id"
+        },
+        "days": {
+            "@id": "healthy_homes_parent_survey:days.jsonld",
+            "@type": "@id"
+        },
+        "nights": {
+            "@id": "healthy_homes_parent_survey:nights.jsonld",
+            "@type": "@id"
+        },
+        "limits": {
+            "@id": "healthy_homes_parent_survey:limits.jsonld",
+            "@type": "@id"
+        },
+        "asthma_4_weeks": {
+            "@id": "healthy_homes_parent_survey:asthma_4_weeks.jsonld",
+            "@type": "@id"
+        },
+        "shortness_of_breath": {
+            "@id": "healthy_homes_parent_survey:shortness_of_breath.jsonld",
+            "@type": "@id"
+        },
+        "symptoms_frequency": {
+            "@id": "healthy_homes_parent_survey:symptoms_frequency.jsonld",
+            "@type": "@id"
+        },
+        "inhaler": {
+            "@id": "healthy_homes_parent_survey:inhaler.jsonld",
+            "@type": "@id"
+        },
+        "asthma_control": {
+            "@id": "healthy_homes_parent_survey:asthma_control.jsonld",
+            "@type": "@id"
+        },
+        "hospitalized": {
+            "@id": "healthy_homes_parent_survey:hospitalized.jsonld",
+            "@type": "@id"
+        },
+        "hospitalized_times": {
+            "@id": "healthy_homes_parent_survey:hospitalized_times.jsonld",
+            "@type": "@id"
+        },
+        "hospitalized_days": {
+            "@id": "healthy_homes_parent_survey:hospitalized_days.jsonld",
+            "@type": "@id"
+        },
+        "hospitalized_total": {
+            "@id": "healthy_homes_parent_survey:hospitalized_total.jsonld",
+            "@type": "@id"
+        },
+        "emergency_room": {
+            "@id": "healthy_homes_parent_survey:emergency_room.jsonld",
+            "@type": "@id"
+        },
+        "emergency_room_times": {
+            "@id": "healthy_homes_parent_survey:emergency_room_times.jsonld",
+            "@type": "@id"
+        },
+        "urgent_care": {
+            "@id": "healthy_homes_parent_survey:urgent_care.jsonld",
+            "@type": "@id"
+        },
+        "urgent_care_times": {
+            "@id": "healthy_homes_parent_survey:urgent_care_times.jsonld",
+            "@type": "@id"
+        },
+        "medication_3_months": {
+            "@id": "healthy_homes_parent_survey:medication_3_months.jsonld",
+            "@type": "@id"
+        },
+        "medication_prescribed": {
+            "@id": "healthy_homes_parent_survey:medication_prescribed.jsonld",
+            "@type": "@id"
+        },
+        "name_dose": {
+            "@id": "healthy_homes_parent_survey:name_dose.jsonld",
+            "@type": "@id"
+        },
+        "medicine_used": {
+            "@id": "healthy_homes_parent_survey:medicine_used.jsonld",
+            "@type": "@id"
+        },
+        "medicine_14_days": {
+            "@id": "healthy_homes_parent_survey:medicine_14_days.jsonld",
+            "@type": "@id"
+        },
+        "time_14_days": {
+            "@id": "healthy_homes_parent_survey:time_14_days.jsonld",
+            "@type": "@id"
+        },
+        "no_asthma": {
+            "@id": "healthy_homes_parent_survey:no_asthma.jsonld",
+            "@type": "@id"
+        },
+        "age": {
+            "@id": "healthy_homes_parent_survey:age.jsonld",
+            "@type": "@id"
+        },
+        "sex": {
+            "@id": "healthy_homes_parent_survey:sex.jsonld",
+            "@type": "@id"
+        },
+        "race": {
+            "@id": "healthy_homes_parent_survey:race.jsonld",
+            "@type": "@id"
+        },
+        "ethnicity": {
+            "@id": "healthy_homes_parent_survey:ethnicity.jsonld",
+            "@type": "@id"
+        },
+        "parents": {
+            "@id": "healthy_homes_parent_survey:parents.jsonld",
+            "@type": "@id"
+        },
+        "mother_age": {
+            "@id": "healthy_homes_parent_survey:mother_age.jsonld",
+            "@type": "@id"
+        },
+        "mother_grade": {
+            "@id": "healthy_homes_parent_survey:mother_grade.jsonld",
+            "@type": "@id"
+        },
+        "mother_occupation": {
+            "@id": "healthy_homes_parent_survey:mother_occupation.jsonld",
+            "@type": "@id"
+        },
+        "married_about": {
+            "@id": "healthy_homes_parent_survey:married_about.jsonld",
+            "@type": "@id"
+        },
+        "spouse_age": {
+            "@id": "healthy_homes_parent_survey:spouse_age.jsonld",
+            "@type": "@id"
+        },
+        "spouse_occupation": {
+            "@id": "healthy_homes_parent_survey:spouse_occupation.jsonld",
+            "@type": "@id"
+        },
+        "respiratory_symptons": {
+            "@id": "healthy_homes_parent_survey:respiratory_symptons.jsonld",
+            "@type": "@id"
+        },
+        "cough": {
+            "@id": "healthy_homes_parent_survey:cough.jsonld",
+            "@type": "@id"
+        },
+        "nose_eyes": {
+            "@id": "healthy_homes_parent_survey:nose_eyes.jsonld",
+            "@type": "@id"
+        },
+        "throat": {
+            "@id": "healthy_homes_parent_survey:throat.jsonld",
+            "@type": "@id"
+        },
+        "sneezing": {
+            "@id": "healthy_homes_parent_survey:sneezing.jsonld",
+            "@type": "@id"
+        },
+        "home_environment": {
+            "@id": "healthy_homes_parent_survey:home_environment.jsonld",
+            "@type": "@id"
+        },
+        "house_year": {
+            "@id": "healthy_homes_parent_survey:house_year.jsonld",
+            "@type": "@id"
+        },
+        "square_feet": {
+            "@id": "healthy_homes_parent_survey:square_feet.jsonld",
+            "@type": "@id"
+        },
+        "ceilings": {
+            "@id": "healthy_homes_parent_survey:ceilings.jsonld",
+            "@type": "@id"
+        },
+        "adults": {
+            "@id": "healthy_homes_parent_survey:adults.jsonld",
+            "@type": "@id"
+        },
+        "children": {
+            "@id": "healthy_homes_parent_survey:children.jsonld",
+            "@type": "@id"
+        },
+        "carpet": {
+            "@id": "healthy_homes_parent_survey:carpet.jsonld",
+            "@type": "@id"
+        },
+        "tile": {
+            "@id": "healthy_homes_parent_survey:tile.jsonld",
+            "@type": "@id"
+        },
+        "vinyl": {
+            "@id": "healthy_homes_parent_survey:vinyl.jsonld",
+            "@type": "@id"
+        },
+        "wood": {
+            "@id": "healthy_homes_parent_survey:wood.jsonld",
+            "@type": "@id"
+        },
+        "other": {
+            "@id": "healthy_homes_parent_survey:other.jsonld",
+            "@type": "@id"
+        },
+        "bedrooms": {
+            "@id": "healthy_homes_parent_survey:bedrooms.jsonld",
+            "@type": "@id"
+        },
+        "bathrooms": {
+            "@id": "healthy_homes_parent_survey:bathrooms.jsonld",
+            "@type": "@id"
+        },
+        "living_rooms": {
+            "@id": "healthy_homes_parent_survey:living_rooms.jsonld",
+            "@type": "@id"
+        },
+        "other_rooms": {
+            "@id": "healthy_homes_parent_survey:other_rooms.jsonld",
+            "@type": "@id"
+        },
+        "smoke": {
+            "@id": "healthy_homes_parent_survey:smoke.jsonld",
+            "@type": "@id"
+        },
+        "stuffed_animals": {
+            "@id": "healthy_homes_parent_survey:stuffed_animals.jsonld",
+            "@type": "@id"
+        },
+        "carpet_floor": {
+            "@id": "healthy_homes_parent_survey:carpet_floor.jsonld",
+            "@type": "@id"
+        },
+        "pet_before": {
+            "@id": "healthy_homes_parent_survey:pet_before.jsonld",
+            "@type": "@id"
+        },
+        "pet_now": {
+            "@id": "healthy_homes_parent_survey:pet_now.jsonld",
+            "@type": "@id"
+        },
+        "dog": {
+            "@id": "healthy_homes_parent_survey:dog.jsonld",
+            "@type": "@id"
+        },
+        "cat": {
+            "@id": "healthy_homes_parent_survey:cat.jsonld",
+            "@type": "@id"
+        },
+        "pet_other": {
+            "@id": "healthy_homes_parent_survey:pet_other.jsonld",
+            "@type": "@id"
+        },
+        "bleach": {
+            "@id": "healthy_homes_parent_survey:bleach.jsonld",
+            "@type": "@id"
+        },
+        "ammonia": {
+            "@id": "healthy_homes_parent_survey:ammonia.jsonld",
+            "@type": "@id"
+        },
+        "pinesol": {
+            "@id": "healthy_homes_parent_survey:pinesol.jsonld",
+            "@type": "@id"
+        },
+        "surface": {
+            "@id": "healthy_homes_parent_survey:surface.jsonld",
+            "@type": "@id"
+        },
+        "cleaner_other": {
+            "@id": "healthy_homes_parent_survey:cleaner_other.jsonld",
+            "@type": "@id"
+        },
+        "carpet_vacuumed": {
+            "@id": "healthy_homes_parent_survey:carpet_vacuumed.jsonld",
+            "@type": "@id"
+        },
+        "dust_furniture": {
+            "@id": "healthy_homes_parent_survey:dust_furniture.jsonld",
+            "@type": "@id"
+        },
+        "solid_surface": {
+            "@id": "healthy_homes_parent_survey:solid_surface.jsonld",
+            "@type": "@id"
+        },
+        "cockroaches": {
+            "@id": "healthy_homes_parent_survey:cockroaches.jsonld",
+            "@type": "@id"
+        },
+        "mice": {
+            "@id": "healthy_homes_parent_survey:mice.jsonld",
+            "@type": "@id"
+        },
+        "mice_evidence": {
+            "@id": "healthy_homes_parent_survey:mice_evidence.jsonld",
+            "@type": "@id"
+        },
+        "rats_evidence": {
+            "@id": "healthy_homes_parent_survey:rats_evidence.jsonld",
+            "@type": "@id"
+        },
+        "home_stains": {
+            "@id": "healthy_homes_parent_survey:home_stains.jsonld",
+            "@type": "@id"
+        },
+        "bedroom_stains": {
+            "@id": "healthy_homes_parent_survey:bedroom_stains.jsonld",
+            "@type": "@id"
+        },
+        "stains_time": {
+            "@id": "healthy_homes_parent_survey:stains_time.jsonld",
+            "@type": "@id"
+        },
+        "problems": {
+            "@id": "healthy_homes_parent_survey:problems.jsonld",
+            "@type": "@id"
+        },
+        "filter": {
+            "@id": "healthy_homes_parent_survey:filter.jsonld",
+            "@type": "@id"
+        },
+        "filter_located": {
+            "@id": "healthy_homes_parent_survey:filter_located.jsonld",
+            "@type": "@id"
+        },
+        "filter_decide": {
+            "@id": "healthy_homes_parent_survey:filter_decide.jsonld",
+            "@type": "@id"
+        },
+        "decide_other": {
+            "@id": "healthy_homes_parent_survey:decide_other.jsonld",
+            "@type": "@id"
+        },
+        "filter_change": {
+            "@id": "healthy_homes_parent_survey:filter_change.jsonld",
+            "@type": "@id"
+        },
+        "temperature_cold": {
+            "@id": "healthy_homes_parent_survey:temperature_cold.jsonld",
+            "@type": "@id"
+        },
+        "temperature_hot": {
+            "@id": "healthy_homes_parent_survey:temperature_hot.jsonld",
+            "@type": "@id"
+        },
+        "portable_cleaner": {
+            "@id": "healthy_homes_parent_survey:portable_cleaner.jsonld",
+            "@type": "@id"
+        },
+        "outside": {
+            "@id": "healthy_homes_parent_survey:outside.jsonld",
+            "@type": "@id"
+        },
+        "inside": {
+            "@id": "healthy_homes_parent_survey:inside.jsonld",
+            "@type": "@id"
+        },
+        "chemicals": {
+            "@id": "healthy_homes_parent_survey:chemicals.jsonld",
+            "@type": "@id"
+        },
+        "humidity": {
+            "@id": "healthy_homes_parent_survey:humidity.jsonld",
+            "@type": "@id"
+        },
+        "dustproof": {
+            "@id": "healthy_homes_parent_survey:dustproof.jsonld",
+            "@type": "@id"
+        },
+        "composition": {
+            "@id": "healthy_homes_parent_survey:composition.jsonld",
+            "@type": "@id"
+        },
+        "hood": {
+            "@id": "healthy_homes_parent_survey:hood.jsonld",
+            "@type": "@id"
+        },
+        "work": {
+            "@id": "healthy_homes_parent_survey:work.jsonld",
+            "@type": "@id"
+        },
+        "hood_yes": {
+            "@id": "healthy_homes_parent_survey:hood_yes.jsonld",
+            "@type": "@id"
+        },
+        "oil": {
+            "@id": "healthy_homes_parent_survey:oil.jsonld",
+            "@type": "@id"
+        },
+        "food_smoke": {
+            "@id": "healthy_homes_parent_survey:food_smoke.jsonld",
+            "@type": "@id"
+        },
+        "odor": {
+            "@id": "healthy_homes_parent_survey:odor.jsonld",
+            "@type": "@id"
+        },
+        "steam": {
+            "@id": "healthy_homes_parent_survey:steam.jsonld",
+            "@type": "@id"
+        },
+        "food_other": {
+            "@id": "healthy_homes_parent_survey:food_other.jsonld",
+            "@type": "@id"
+        },
+        "filter_length": {
+            "@id": "healthy_homes_parent_survey:filter_length.jsonld",
+            "@type": "@id"
+        },
+        "filter_width": {
+            "@id": "healthy_homes_parent_survey:filter_width.jsonld",
+            "@type": "@id"
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "filter_located",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Where is your filter located? "
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "Wall "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "Ceiling "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "Under AC unit "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "Other"
+                }
+            }
+        ],
+        "minValue": "",
+        "maxValue": "",
+        "requiredValue": ""
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "months",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Select all the months where your child's asthma is the worst. "
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "September "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "October "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "November "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "December "
+                }
+            },
+            {
+                "schema:value": 5,
+                "schema:name": {
+                    "en": "January "
+                }
+            },
+            {
+                "schema:value": 6,
+                "schema:name": {
+                    "en": "February "
+                }
+            },
+            {
+                "schema:value": 7,
+                "schema:name": {
+                    "en": "March "
+                }
+            },
+            {
+                "schema:value": 8,
+                "schema:name": {
+                    "en": "April "
+                }
+            },
+            {
+                "schema:value": 9,
+                "schema:name": {
+                    "en": "May "
+                }
+            },
+            {
+                "schema:value": 10,
+                "schema:name": {
+                    "en": "June "
+                }
+            },
+            {
+                "schema:value": 11,
+                "schema:name": {
+                    "en": "July "
+                }
+            },
+            {
+                "schema:value": 12,
+                "schema:name": {
+                    "en": "August"
+                }
+            }
+        ],
+        "minValue": "",
+        "maxValue": "",
+        "requiredValue": ""
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "medicine_used",
+    "ui": {
+        "inputType": "select"
+    },
+    "question": {
+        "en": "How often does your child take this medicine?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "Once a day "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "Twice a day "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "Only as needed"
+                }
+            }
+        ],
+        "minValue": "",
+        "maxValue": "",
+        "requiredValue": ""
+    }
+}

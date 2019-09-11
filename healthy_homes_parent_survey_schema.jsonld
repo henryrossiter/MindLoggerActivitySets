@@ -1,0 +1,689 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic.jsonld",
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/activities/healthy_homes_parent_survey/healthy_homes_parent_survey_context.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Activity.jsonld",
+    "@id": "healthy_homes_parent_survey_schema",
+    "skos:prefLabel": "healthy_homes_parent_survey_schema",
+    "skos:altLabel": "healthy_homes_parent_survey_schema",
+    "schema:description": "healthy_homes_parent_survey schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "scoringLogic": {},
+    "variableMap": [
+        {
+            "variableName": "record_id",
+            "isAbout": "record_id"
+        },
+        {
+            "variableName": "site_id",
+            "isAbout": "site_id"
+        },
+        {
+            "variableName": "living_type",
+            "isAbout": "living_type"
+        },
+        {
+            "variableName": "central_air_conditioning",
+            "isAbout": "central_air_conditioning"
+        },
+        {
+            "variableName": "cell_phone",
+            "isAbout": "cell_phone"
+        },
+        {
+            "variableName": "phone_type",
+            "isAbout": "phone_type"
+        },
+        {
+            "variableName": "asthma",
+            "isAbout": "asthma"
+        },
+        {
+            "variableName": "yes_asthma",
+            "isAbout": "yes_asthma"
+        },
+        {
+            "variableName": "months",
+            "isAbout": "months"
+        },
+        {
+            "variableName": "days",
+            "isAbout": "days"
+        },
+        {
+            "variableName": "nights",
+            "isAbout": "nights"
+        },
+        {
+            "variableName": "limits",
+            "isAbout": "limits"
+        },
+        {
+            "variableName": "asthma_4_weeks",
+            "isAbout": "asthma_4_weeks"
+        },
+        {
+            "variableName": "shortness_of_breath",
+            "isAbout": "shortness_of_breath"
+        },
+        {
+            "variableName": "symptoms_frequency",
+            "isAbout": "symptoms_frequency"
+        },
+        {
+            "variableName": "inhaler",
+            "isAbout": "inhaler"
+        },
+        {
+            "variableName": "asthma_control",
+            "isAbout": "asthma_control"
+        },
+        {
+            "variableName": "hospitalized",
+            "isAbout": "hospitalized"
+        },
+        {
+            "variableName": "hospitalized_times",
+            "isAbout": "hospitalized_times"
+        },
+        {
+            "variableName": "hospitalized_days",
+            "isAbout": "hospitalized_days"
+        },
+        {
+            "variableName": "hospitalized_total",
+            "isAbout": "hospitalized_total"
+        },
+        {
+            "variableName": "emergency_room",
+            "isAbout": "emergency_room"
+        },
+        {
+            "variableName": "emergency_room_times",
+            "isAbout": "emergency_room_times"
+        },
+        {
+            "variableName": "urgent_care",
+            "isAbout": "urgent_care"
+        },
+        {
+            "variableName": "urgent_care_times",
+            "isAbout": "urgent_care_times"
+        },
+        {
+            "variableName": "medication_3_months",
+            "isAbout": "medication_3_months"
+        },
+        {
+            "variableName": "medication_prescribed",
+            "isAbout": "medication_prescribed"
+        },
+        {
+            "variableName": "name_dose",
+            "isAbout": "name_dose"
+        },
+        {
+            "variableName": "medicine_used",
+            "isAbout": "medicine_used"
+        },
+        {
+            "variableName": "medicine_14_days",
+            "isAbout": "medicine_14_days"
+        },
+        {
+            "variableName": "time_14_days",
+            "isAbout": "time_14_days"
+        },
+        {
+            "variableName": "no_asthma",
+            "isAbout": "no_asthma"
+        },
+        {
+            "variableName": "age",
+            "isAbout": "age"
+        },
+        {
+            "variableName": "sex",
+            "isAbout": "sex"
+        },
+        {
+            "variableName": "race",
+            "isAbout": "race"
+        },
+        {
+            "variableName": "ethnicity",
+            "isAbout": "ethnicity"
+        },
+        {
+            "variableName": "parents",
+            "isAbout": "parents"
+        },
+        {
+            "variableName": "mother_age",
+            "isAbout": "mother_age"
+        },
+        {
+            "variableName": "mother_grade",
+            "isAbout": "mother_grade"
+        },
+        {
+            "variableName": "mother_occupation",
+            "isAbout": "mother_occupation"
+        },
+        {
+            "variableName": "married_about",
+            "isAbout": "married_about"
+        },
+        {
+            "variableName": "spouse_age",
+            "isAbout": "spouse_age"
+        },
+        {
+            "variableName": "spouse_occupation",
+            "isAbout": "spouse_occupation"
+        },
+        {
+            "variableName": "respiratory_symptons",
+            "isAbout": "respiratory_symptons"
+        },
+        {
+            "variableName": "cough",
+            "isAbout": "cough"
+        },
+        {
+            "variableName": "nose_eyes",
+            "isAbout": "nose_eyes"
+        },
+        {
+            "variableName": "throat",
+            "isAbout": "throat"
+        },
+        {
+            "variableName": "sneezing",
+            "isAbout": "sneezing"
+        },
+        {
+            "variableName": "home_environment",
+            "isAbout": "home_environment"
+        },
+        {
+            "variableName": "house_year",
+            "isAbout": "house_year"
+        },
+        {
+            "variableName": "square_feet",
+            "isAbout": "square_feet"
+        },
+        {
+            "variableName": "ceilings",
+            "isAbout": "ceilings"
+        },
+        {
+            "variableName": "adults",
+            "isAbout": "adults"
+        },
+        {
+            "variableName": "children",
+            "isAbout": "children"
+        },
+        {
+            "variableName": "carpet",
+            "isAbout": "carpet"
+        },
+        {
+            "variableName": "tile",
+            "isAbout": "tile"
+        },
+        {
+            "variableName": "vinyl",
+            "isAbout": "vinyl"
+        },
+        {
+            "variableName": "wood",
+            "isAbout": "wood"
+        },
+        {
+            "variableName": "other",
+            "isAbout": "other"
+        },
+        {
+            "variableName": "bedrooms",
+            "isAbout": "bedrooms"
+        },
+        {
+            "variableName": "bathrooms",
+            "isAbout": "bathrooms"
+        },
+        {
+            "variableName": "living_rooms",
+            "isAbout": "living_rooms"
+        },
+        {
+            "variableName": "other_rooms",
+            "isAbout": "other_rooms"
+        },
+        {
+            "variableName": "smoke",
+            "isAbout": "smoke"
+        },
+        {
+            "variableName": "stuffed_animals",
+            "isAbout": "stuffed_animals"
+        },
+        {
+            "variableName": "carpet_floor",
+            "isAbout": "carpet_floor"
+        },
+        {
+            "variableName": "pet_before",
+            "isAbout": "pet_before"
+        },
+        {
+            "variableName": "pet_now",
+            "isAbout": "pet_now"
+        },
+        {
+            "variableName": "dog",
+            "isAbout": "dog"
+        },
+        {
+            "variableName": "cat",
+            "isAbout": "cat"
+        },
+        {
+            "variableName": "pet_other",
+            "isAbout": "pet_other"
+        },
+        {
+            "variableName": "bleach",
+            "isAbout": "bleach"
+        },
+        {
+            "variableName": "ammonia",
+            "isAbout": "ammonia"
+        },
+        {
+            "variableName": "pinesol",
+            "isAbout": "pinesol"
+        },
+        {
+            "variableName": "surface",
+            "isAbout": "surface"
+        },
+        {
+            "variableName": "cleaner_other",
+            "isAbout": "cleaner_other"
+        },
+        {
+            "variableName": "carpet_vacuumed",
+            "isAbout": "carpet_vacuumed"
+        },
+        {
+            "variableName": "dust_furniture",
+            "isAbout": "dust_furniture"
+        },
+        {
+            "variableName": "solid_surface",
+            "isAbout": "solid_surface"
+        },
+        {
+            "variableName": "cockroaches",
+            "isAbout": "cockroaches"
+        },
+        {
+            "variableName": "mice",
+            "isAbout": "mice"
+        },
+        {
+            "variableName": "mice_evidence",
+            "isAbout": "mice_evidence"
+        },
+        {
+            "variableName": "rats_evidence",
+            "isAbout": "rats_evidence"
+        },
+        {
+            "variableName": "home_stains",
+            "isAbout": "home_stains"
+        },
+        {
+            "variableName": "bedroom_stains",
+            "isAbout": "bedroom_stains"
+        },
+        {
+            "variableName": "stains_time",
+            "isAbout": "stains_time"
+        },
+        {
+            "variableName": "problems",
+            "isAbout": "problems"
+        },
+        {
+            "variableName": "filter",
+            "isAbout": "filter"
+        },
+        {
+            "variableName": "filter_located",
+            "isAbout": "filter_located"
+        },
+        {
+            "variableName": "filter_decide",
+            "isAbout": "filter_decide"
+        },
+        {
+            "variableName": "decide_other",
+            "isAbout": "decide_other"
+        },
+        {
+            "variableName": "filter_change",
+            "isAbout": "filter_change"
+        },
+        {
+            "variableName": "temperature_cold",
+            "isAbout": "temperature_cold"
+        },
+        {
+            "variableName": "temperature_hot",
+            "isAbout": "temperature_hot"
+        },
+        {
+            "variableName": "portable_cleaner",
+            "isAbout": "portable_cleaner"
+        },
+        {
+            "variableName": "outside",
+            "isAbout": "outside"
+        },
+        {
+            "variableName": "inside",
+            "isAbout": "inside"
+        },
+        {
+            "variableName": "chemicals",
+            "isAbout": "chemicals"
+        },
+        {
+            "variableName": "humidity",
+            "isAbout": "humidity"
+        },
+        {
+            "variableName": "dustproof",
+            "isAbout": "dustproof"
+        },
+        {
+            "variableName": "composition",
+            "isAbout": "composition"
+        },
+        {
+            "variableName": "hood",
+            "isAbout": "hood"
+        },
+        {
+            "variableName": "work",
+            "isAbout": "work"
+        },
+        {
+            "variableName": "hood_yes",
+            "isAbout": "hood_yes"
+        },
+        {
+            "variableName": "oil",
+            "isAbout": "oil"
+        },
+        {
+            "variableName": "food_smoke",
+            "isAbout": "food_smoke"
+        },
+        {
+            "variableName": "odor",
+            "isAbout": "odor"
+        },
+        {
+            "variableName": "steam",
+            "isAbout": "steam"
+        },
+        {
+            "variableName": "food_other",
+            "isAbout": "food_other"
+        },
+        {
+            "variableName": "filter_length",
+            "isAbout": "filter_length"
+        },
+        {
+            "variableName": "filter_width",
+            "isAbout": "filter_width"
+        }
+    ],
+    "ui": {
+        "order": [
+            "record_id",
+            "site_id",
+            "living_type",
+            "central_air_conditioning",
+            "cell_phone",
+            "phone_type",
+            "asthma",
+            "yes_asthma",
+            "months",
+            "days",
+            "nights",
+            "limits",
+            "asthma_4_weeks",
+            "shortness_of_breath",
+            "symptoms_frequency",
+            "inhaler",
+            "asthma_control",
+            "hospitalized",
+            "hospitalized_times",
+            "hospitalized_days",
+            "hospitalized_total",
+            "emergency_room",
+            "emergency_room_times",
+            "urgent_care",
+            "urgent_care_times",
+            "medication_3_months",
+            "medication_prescribed",
+            "name_dose",
+            "medicine_used",
+            "medicine_14_days",
+            "time_14_days",
+            "no_asthma",
+            "age",
+            "sex",
+            "race",
+            "ethnicity",
+            "parents",
+            "mother_age",
+            "mother_grade",
+            "mother_occupation",
+            "married_about",
+            "spouse_age",
+            "spouse_occupation",
+            "respiratory_symptons",
+            "cough",
+            "nose_eyes",
+            "throat",
+            "sneezing",
+            "home_environment",
+            "house_year",
+            "square_feet",
+            "ceilings",
+            "adults",
+            "children",
+            "carpet",
+            "tile",
+            "vinyl",
+            "wood",
+            "other",
+            "bedrooms",
+            "bathrooms",
+            "living_rooms",
+            "other_rooms",
+            "smoke",
+            "stuffed_animals",
+            "carpet_floor",
+            "pet_before",
+            "pet_now",
+            "dog",
+            "cat",
+            "pet_other",
+            "bleach",
+            "ammonia",
+            "pinesol",
+            "surface",
+            "cleaner_other",
+            "carpet_vacuumed",
+            "dust_furniture",
+            "solid_surface",
+            "cockroaches",
+            "mice",
+            "mice_evidence",
+            "rats_evidence",
+            "home_stains",
+            "bedroom_stains",
+            "stains_time",
+            "problems",
+            "filter",
+            "filter_located",
+            "filter_decide",
+            "decide_other",
+            "filter_change",
+            "temperature_cold",
+            "temperature_hot",
+            "portable_cleaner",
+            "outside",
+            "inside",
+            "chemicals",
+            "humidity",
+            "dustproof",
+            "composition",
+            "hood",
+            "work",
+            "hood_yes",
+            "oil",
+            "food_smoke",
+            "odor",
+            "steam",
+            "food_other",
+            "filter_length",
+            "filter_width"
+        ],
+        "shuffle": false,
+        "visibility": {
+            "record_id": true,
+            "site_id": true,
+            "living_type": true,
+            "central_air_conditioning": true,
+            "cell_phone": true,
+            "phone_type": " parent_3   == '1'",
+            "asthma": true,
+            "yes_asthma": " parent_4   == '1'",
+            "months": " parent_4   == '1'",
+            "days": " parent_4   == '1'",
+            "nights": " parent_4   == '1'",
+            "limits": " parent_4   == '1'",
+            "asthma_4_weeks": " parent_4   == '1'",
+            "shortness_of_breath": " parent_4   == '1'",
+            "symptoms_frequency": " parent_4   == '1'",
+            "inhaler": " parent_4   == '1'",
+            "asthma_control": " parent_4   == '1'",
+            "hospitalized": " parent_4   == 1",
+            "hospitalized_times": " parent_47   == 1",
+            "hospitalized_days": " parent_47   == '1'",
+            "hospitalized_total": " parent_47   == '1'",
+            "emergency_room": " parent_4   == '1'",
+            "emergency_room_times": " parent_48  ==1",
+            "urgent_care": " parent_4  ==1",
+            "urgent_care_times": " parent_49  ==1",
+            "medication_3_months": " parent_4  ==1",
+            "medication_prescribed": " parent_4   == '1'",
+            "name_dose": " parent_51  ==1",
+            "medicine_used": " parent_51  ==1",
+            "medicine_14_days": " parent_51  ==1",
+            "time_14_days": " parent_51  ==1",
+            "no_asthma": " parent_4   == '0'",
+            "age": true,
+            "sex": true,
+            "race": true,
+            "ethnicity": true,
+            "parents": true,
+            "mother_age": true,
+            "mother_grade": true,
+            "mother_occupation": true,
+            "married_about": true,
+            "spouse_age": true,
+            "spouse_occupation": true,
+            "respiratory_symptons": true,
+            "cough": true,
+            "nose_eyes": true,
+            "throat": true,
+            "sneezing": true,
+            "home_environment": true,
+            "house_year": true,
+            "square_feet": true,
+            "ceilings": true,
+            "adults": true,
+            "children": true,
+            "carpet": true,
+            "tile": true,
+            "vinyl": true,
+            "wood": true,
+            "other": true,
+            "bedrooms": true,
+            "bathrooms": true,
+            "living_rooms": true,
+            "other_rooms": true,
+            "smoke": true,
+            "stuffed_animals": true,
+            "carpet_floor": true,
+            "pet_before": true,
+            "pet_now": true,
+            "dog": true,
+            "cat": true,
+            "pet_other": true,
+            "bleach": true,
+            "ammonia": true,
+            "pinesol": true,
+            "surface": true,
+            "cleaner_other": true,
+            "carpet_vacuumed": true,
+            "dust_furniture": true,
+            "solid_surface": true,
+            "cockroaches": true,
+            "mice": true,
+            "mice_evidence": true,
+            "rats_evidence": true,
+            "home_stains": true,
+            "bedroom_stains": true,
+            "stains_time": true,
+            "problems": true,
+            "filter": true,
+            "filter_located": true,
+            "filter_decide": true,
+            "decide_other": " parent_34___5   == '1'",
+            "filter_change": true,
+            "temperature_cold": true,
+            "temperature_hot": true,
+            "portable_cleaner": true,
+            "outside": true,
+            "inside": true,
+            "chemicals": true,
+            "humidity": true,
+            "dustproof": true,
+            "composition": true,
+            "hood": true,
+            "work": " parent_39   == '1'",
+            "hood_yes": " parent_39a   == '1'",
+            "oil": true,
+            "food_smoke": true,
+            "odor": true,
+            "steam": true,
+            "food_other": true,
+            "filter_length": true,
+            "filter_width": true
+        }
+    }
+}
