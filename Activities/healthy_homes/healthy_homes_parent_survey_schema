@@ -1,7 +1,7 @@
 {
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic",
-        "https://raw.githubusercontent.com/henryrossiter/MindLoggerActivitySets/master/Activities/healthy_homes_parent_survey_context"
+        "https://raw.githubusercontent.com/henryrossiter/MindLoggerActivitySets/master/Activities/healthy_homes/healthy_homes_parent_survey_context"
     ],
     "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Activity",
     "@id": "healthy_homes_parent_survey_schema",

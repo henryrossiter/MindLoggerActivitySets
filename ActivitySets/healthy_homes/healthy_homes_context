@@ -1,7 +1,7 @@
 {
     "@context": {
         "@version": 1.1,
-        "activity_path": "https://raw.githubusercontent.com/henryrossiter/MindLoggerActivitySets/master/Activities/",
+        "activity_path": "https://raw.githubusercontent.com/henryrossiter/MindLoggerActivitySets/master/Activities/healthy_homes/",
         "healthy_homes_parent_survey": {
             "@id": "activity_path:healthy_homes_parent_survey_schema",
             "@type": "@id"

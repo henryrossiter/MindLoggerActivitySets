@@ -1,6 +1,6 @@
 {
     "@context": [ "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic",
-        "https://raw.githubusercontent.com/henryrossiter/MindLoggerActivitySets/master/ActivitySets/healthy_homes_context"
+        "https://raw.githubusercontent.com/henryrossiter/MindLoggerActivitySets/master/ActivitySets/healthy_homes/healthy_homes_context"
     ],
     "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/ActivitySet",
     "@id": "healthy_homes_schema",
