@@ -1,0 +1,29 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic",
+        "https://raw.githubusercontent.com/henryrossiter/MindLoggerActivitySets/master/Activities/video_test/video_survey_context"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Activity",
+    "@id": "video_survey_schema",
+    "skos:prefLabel": "video_survey_schema",
+    "skos:altLabel": "video_survey_schema",
+    "schema:description": "video_survey schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "scoringLogic": {},
+    "variableMap": [
+        {
+            "variableName": "record_video",
+            "isAbout": "record_video"
+        }
+    ],
+    "ui": {
+        "order": [
+            "record_video"
+        ],
+        "shuffle": false,
+        "visibility": {
+            "record_video": true
+        }
+    }
+}

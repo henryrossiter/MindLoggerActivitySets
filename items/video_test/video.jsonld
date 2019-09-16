@@ -1,0 +1,16 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
+    "skos:altLabel": "record_video",
+    "ui": {
+        "inputType": "video",
+        "inputs": {
+            "allowLibrary": "true"
+        }
+    },
+    "question": {
+        "en": "Record a Video"
+    }
+}

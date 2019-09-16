@@ -1,0 +1,29 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic",
+        "https://raw.githubusercontent.com/henryrossiter/MindLoggerActivitySets/master/ActivitySets/video_test/video_context"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/ActivitySet",
+    "@id": "video_schema",
+    "skos:prefLabel": "Video Test",
+    "skos:altLabel": "vid",
+    "schema:description": "Can we use the camera??",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "schema:about": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/activity-sets/ema-hbn/README.md",
+    "schema:image": "https://childmindinstitute.github.io/mindlogger-assets/illustrations/undraw/hbn_ema_image.svg",
+    "variableMap": [
+        {"variableName": "video_survey", "isAbout": "video_survey"}
+    ],
+    "ui": {
+        "order": [
+            "video_survey"
+        ],
+        "shuffle": false,
+        "activity_display_name": {
+            "video_survey":  "Survey"
+        },
+        "visibility": {
+            "video_survey": true
+        }
+    }
+}
