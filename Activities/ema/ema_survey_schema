@@ -1,0 +1,35 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic",
+        "https://raw.githubusercontent.com/henryrossiter/MindLoggerActivitySets/master/Activities/ema/ema_survey_context"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Activity",
+    "@id": "ema_survey_schema",
+    "skos:prefLabel": "ema_shema",
+    "skos:altLabel": "ema_schema",
+    "schema:description": "ema schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "scoringLogic": {},
+    "variableMap": [
+        {
+            "variableName": "to_many_things",
+            "isAbout": "to_many_things"
+        },
+        {
+            "variableName": "to_many_things_stress",
+            "isAbout": "to_many_things_stress"
+        }
+    ],
+    "ui": {
+        "order": [
+            "to_many_things",
+            "to_many_things_stress"
+        ],
+        "shuffle": false,
+        "visibility": {
+            "to_many_things": true,
+            "to_many_things_stress": "to_many_things > 1"
+        }
+    }
+}
