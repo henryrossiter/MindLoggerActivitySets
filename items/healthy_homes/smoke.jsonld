@@ -5,12 +5,26 @@
     "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
     "skos:altLabel": "smoke",
     "ui": {
-        "inputType": "yesno"
+        "inputType": "radio"
     },
     "question": {
         "en": "Does anyone smoke in the home? "
     },
     "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "Yes "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "No "
+                }
+            }
+        ],
         "minValue": "",
         "maxValue": "",
         "requiredValue": ""

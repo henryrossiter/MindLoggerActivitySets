@@ -5,12 +5,26 @@
     "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
     "skos:altLabel": "home_stains",
     "ui": {
-        "inputType": "yesno"
+        "inputType": "radio"
     },
     "question": {
         "en": "Have you observed damp stains at home (walls, ceiling, carpet...)? "
     },
     "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "Yes "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "No "
+                }
+            }
+        ],
         "minValue": "",
         "maxValue": "",
         "requiredValue": ""

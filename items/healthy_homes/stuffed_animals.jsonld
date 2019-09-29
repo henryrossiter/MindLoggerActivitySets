@@ -5,12 +5,26 @@
     "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
     "skos:altLabel": "stuffed_animals",
     "ui": {
-        "inputType": "yesno"
+        "inputType": "radio"
     },
     "question": {
         "en": "Are there any stuffed animals in the child's bedroom?  "
     },
     "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "Yes "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "No "
+                }
+            }
+        ],
         "minValue": "",
         "maxValue": "",
         "requiredValue": ""

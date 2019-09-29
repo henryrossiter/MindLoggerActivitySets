@@ -1,0 +1,50 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
+    "skos:altLabel": "to_many_things_stress",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "How stressful was this hassle for you?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "Not at all "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "A little "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "Somewhat "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "A good amount "
+                }
+            },
+            {
+                "schema:value": 5,
+                "schema:name": {
+                    "en": "Extremely stressful "
+                }
+            }
+        ],
+        "minValue": "",
+        "maxValue": "",
+        "requiredValue": ""
+    }
+}

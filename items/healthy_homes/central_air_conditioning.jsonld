@@ -5,12 +5,26 @@
     "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
     "skos:altLabel": "central_air_conditioning",
     "ui": {
-        "inputType": "yesno"
+        "inputType": "radio"
     },
     "question": {
         "en": "Do you have a central air conditioner (not a window unit)?"
     },
     "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "Yes "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "No "
+                }
+            }
+        ],
         "minValue": "",
         "maxValue": "",
         "requiredValue": ""

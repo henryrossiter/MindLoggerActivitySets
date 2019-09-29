@@ -5,12 +5,26 @@
     "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
     "skos:altLabel": "bedroom_stains",
     "ui": {
-        "inputType": "yesno"
+        "inputType": "radio"
     },
     "question": {
         "en": "Have you observed damp stains in the child's or parents' bedroom?"
     },
     "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "Yes "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "No "
+                }
+            }
+        ],
         "minValue": "",
         "maxValue": "",
         "requiredValue": ""
