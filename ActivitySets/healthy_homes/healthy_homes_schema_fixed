@@ -4,7 +4,7 @@
     ],
     "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/ActivitySet",
     "@id": "healthy_homes_schema",
-    "skos:prefLabel": "Healthy Homes Survey",
+    "skos:prefLabel": "Healthy Homes",
     "skos:altLabel": "hhs",
     "schema:description": "Daily questions about your home",
     "schema:schemaVersion": "0.0.1",
