@@ -9,6 +9,22 @@
         "to_many_things_stress": {
             "@id": "ema_survey:to_many_things_stress.jsonld",
             "@type": "@id"
+        },
+        "exhaustion": {
+            "@id": "ema_survey:exhaustion.jsonld",
+            "@type": "@id"
+        },
+        "exhaustion_stress": {
+            "@id": "ema_survey:exhaustion_stress.jsonld",
+            "@type": "@id"
+        },
+        "relaxation_problems": {
+            "@id": "ema_survey:relaxation_problems.jsonld",
+            "@type": "@id"
+        },
+        "relaxation_problems_stress": {
+            "@id": "ema_survey:relaxation_problems_stress.jsonld",
+            "@type": "@id"
         }
     }
 }

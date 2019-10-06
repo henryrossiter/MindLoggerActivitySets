@@ -19,17 +19,41 @@
         {
             "variableName": "to_many_things_stress",
             "isAbout": "to_many_things_stress"
+        },
+        {
+            "variableName": "exhaustion",
+            "isAbout": "exhaustion"
+        },
+        {
+            "variableName": "exhaustion_stress",
+            "isAbout": "exhaustion_stress"
+        },
+        {
+            "variableName": "relaxation_problems",
+            "isAbout": "relaxation_problems"
+        },
+        {
+            "variableName": "relaxation_problems_stress",
+            "isAbout": "relaxation_problems_stress"
         }
     ],
     "ui": {
         "order": [
             "to_many_things",
-            "to_many_things_stress"
+            "to_many_things_stress",
+            "exhaustion",
+            "exhaustion_stress",
+            "relaxation_problems",
+            "relaxation_problems_stress"
         ],
         "shuffle": false,
         "visibility": {
             "to_many_things": true,
-            "to_many_things_stress": "to_many_things > 1"
+            "to_many_things_stress": "to_many_things > 1",
+            "exhaustion": true,
+            "exhaustion_stress": "exhaustion > 1",
+            "relaxation_problems": true,
+            "relaxation_problems_stress": "relaxation_problems > 1"
         }
     }
 }

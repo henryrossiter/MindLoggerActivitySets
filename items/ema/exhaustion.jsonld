@@ -3,12 +3,12 @@
         "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic"
     ],
     "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
-    "skos:altLabel": "to_many_things",
+    "skos:altLabel": "exhaustion",
     "ui": {
         "inputType": "radio"
     },
     "question": {
-        "en": "To many things to do"
+        "en": "Exhaustion"
     },
     "responseOptions": {
         "choices": [
