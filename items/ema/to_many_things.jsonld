@@ -14,23 +14,38 @@
         "choices": [
             {
                 "schema:value": 1,
-                "schema:name": "Did not occur "
+                "schema:name": {
+                    "@language": "en",
+                    "@value": "Did not occur"
+                 }
             },
             {
                 "schema:value": 2,
-                "schema:name": "Rarely "
+                "schema:name": {
+                    "@language": "en",
+                    "@value": "Rarely"
+                 }
             },
             {
                 "schema:value": 3,
-                "schema:name": "Sometimes "
+                "schema:name": {
+                    "@language": "en",
+                    "@value": "Sometimes"
+                 }
             },
             {
                 "schema:value": 4,
-                "schema:name": "Regularly "
+                "schema:name": {
+                    "@language": "en",
+                    "@value": "Regularly"
+                 }
             },
             {
                 "schema:value": 5,
-                "schema:name": "Always occured "
+                "schema:name": {
+                    "@language": "en",
+                    "@value": "Always occured"
+                 }
             }
         ],
         "minValue": "",
